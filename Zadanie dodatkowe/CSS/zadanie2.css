@@ -1,0 +1,77 @@
+
+*{
+    padding: auto;
+    margin: auto;
+}
+a{
+    font-style: normal;
+}
+body {
+    font-family: 'Arial', sans-serif;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+nav{
+    position: fixed;
+}
+#tlo, #galeria, #opis{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+}
+#tlo{
+    background: red;
+}
+#galeria{
+    background: blue;
+}
+#opis{
+    background: green;
+}
+/*sekcja 1*/
+#background {
+    height: 1000px;
+    width: auto;
+    background: url("../photo/owce.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*sekcja 2*/
+
+img{
+    height: 250px;
+    width: 400px;
+    clear: both;
+}
+img:hover{
+    filter: alpha(opacity=60);-moz-opacity: :0.6;opacity: 0.6;
+}
+/*sekcja 3*/
+#sekcja3{
+    margin: 20px;
+}
+nagłówek{
+    font-size: 30px;
+    font-weight: bold;
+}
+nagłówek2{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+#kursywa{
+ font-weight: bolder;
+    font-style: italic;
+}
+footer{
+    margin: 20px;
+}
